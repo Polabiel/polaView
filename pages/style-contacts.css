@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.content {
+    margin: 30px auto;
+    overflow: visible;
+}
+
+.content .info h2{
+    text-align: center;
+    margin: 0px auto;
+}
+
+.content .info p {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.content .info-btn{
+    position: relative;
+    left: 35%;
+}
+
+.content .info-btn:hover{
+    opacity: 95%;
+}
