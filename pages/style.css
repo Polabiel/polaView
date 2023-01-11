@@ -52,7 +52,6 @@ header .navigation a {
   padding: 2px 15px;
   border-radius: 20px;
   transition: 0.3s;
-  transition-property: background;
 }
 
 header .navigation a:not(:last-child) {
@@ -60,7 +59,9 @@ header .navigation a:not(:last-child) {
 }
 
 header .navigation a:hover {
-  background: #fff;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .content {
@@ -104,6 +105,18 @@ img#photomy{
   padding: 18px;
   border-radius: 8px;
   width: 70%;
+}
+
+.content .info p a {
+  color: rgb(34, 34, 34);
+  transition: 0.3s;
+  border-radius: 20px;
+
+}
+
+.content .info p a:hover {
+  color: white;
+  border-radius: 8px;
 }
 
 .content .info-btn {
